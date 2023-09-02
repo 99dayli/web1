@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0 user-scalable=no"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <title>Web Dayliana</title>
+  </head>
+  <body>
+    <!--CABECERA DE LA PAGINA-->
+    <header>
+      <div id="fechaActual" class="date"></div>
+
+      <div class="logo-nav">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="logo" />
+        </div>
+
+        
+        <nav>
+          <ul>
+            <li><a href="index.html" ">Inicio</a></li>
+            <li><a href="about.html">Quienes somos</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contáctenos</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+<!--PORTADA-->
+    <section class="portada">
+        <div class="imagen_portada">
+            <img src="/assets/portada-img.jpg" alt="portada">
+        </div>
+        <div class="texto_portada">
+            <h1>Aprovecha nuestros descuentos y ofertas especiales</h1>
+            <h3>Por la compra de $50 dólares en mercacia recibe un <span>30%</span> de descuento.</h3>
+            <p>Válido hasta agotar existencia y para compras realizadas vía web.</p>
+            <a href="productos.html" class="btn-black">Compar</a>
+            
+        </div>
+    </section>
+
+<h1 class="contacto_title">Contáctanos</h1>
+
+<section class="ubicacion">
+    <div class="text_ubicacion">
+        <p>Panamá, Ciudad de Panamá</p>
+        <p>Avenida Balboa Edificio Torre Bicsa</p>
+        <p>Piso 40</p>
+        <p>day@hotmail.com</p>
+        <p>200-0000</p>
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22624.875667403077!2d-79.76513091471375!3d8.860028266876416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fac978055653e03%3A0x88d6e55653300b64!2sInternational%20Fair%20of%20La%20Chorrera!5e0!3m2!1sen!2spa!4v1693529345663!5m2!1sen!2spa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+
+<form id="miFormulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido"><br><br>
+    
+    <label for="telefono">Telefono:</label>
+    <input type="number" id="telefono" name="telefono"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+    
+    <button type="button" onclick="mostrarAlerta()">Enviar</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p class="footer_Text">
+          &copy; Dayliana Brown 2023. Sitio web con los derechos reservados 
+        </p>
+    </footer>
+
+    <script src="/javascript/code.js"></script>
+  </body>
+</html>
